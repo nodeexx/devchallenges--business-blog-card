@@ -59,7 +59,8 @@ const config: Config = {
         sm: 'calc(var(--radius) - 4px)',
       },
       fontFamily: {
-        sans: [...defaultTheme.fontFamily.sans],
+        sans: ['Lato', ...defaultTheme.fontFamily.sans],
+        title: ['Poppins', ...defaultTheme.fontFamily.sans],
       },
     },
   },
