@@ -4,7 +4,9 @@ import * as Card from '$lib/browser/shadcn-svelte/components/ui/card';
 </script>
 
 <Card.Root class="w-[418px] rounded-[12px] border-none p-0 shadow-none">
-  <Card.Content class="p-0">
+  <Card.Content
+    class="border-b border-solid border-b-challenge-light-gray p-0 pb-6"
+  >
     <div class="image__container relative">
       <img
         src="/images/hero-image-business-card.png"
@@ -27,7 +29,7 @@ import * as Card from '$lib/browser/shadcn-svelte/components/ui/card';
       </Card.Description>
     </div>
   </Card.Content>
-  <Card.Footer class="px-8 pb-6 pt-12">
+  <Card.Footer class="px-8 pb-6 pt-6">
     <div class="flex items-center gap-[6px]">
       <div
         class="rounded-full border-[8px] border-solid border-challenge-light-gray"
