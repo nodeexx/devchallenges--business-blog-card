@@ -1,8 +1,8 @@
 # devChallenges - Business Blog Card
 
-<!-- ![Solution screenshot]() -->
+![Solution screenshot](./docs/screenshots/screenshot.png)
 
-<!-- Personal solution to Business Blog Card challenge from devChallenges: -->
+Personal solution to Business Blog Card challenge from devChallenges: [Business Blog Card | devChallenges.io | Real-life Coding Projects to become a Software Engineer](https://devchallenges.io/challenge/business-blog-card)
 
 ## Developing
 
