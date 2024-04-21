@@ -9,13 +9,19 @@ module.exports = {
      */
   ],
   rules: {
-    'no-descending-specificity': null,
     'at-rule-no-unknown': [
       true,
       {
         ignoreAtRules: ['tailwind', 'layer', 'apply', 'config'],
       },
     ],
+    'function-no-unknown': [
+      true,
+      {
+        ignoreFunctions: ['theme'],
+      },
+    ],
+    'no-descending-specificity': null,
   },
   overrides: [
     {
